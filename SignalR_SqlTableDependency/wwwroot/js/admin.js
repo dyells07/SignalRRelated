@@ -1,6 +1,8 @@
 ﻿"use strict";
 
-var connection = new signalR.HubConnectionBuilder().withUrl("/adminHub").build();
+/*var connection = new signalR.HubConnectionBuilder().withUrl("/adminHub").build();*/
+var connection = new signalR.HubConnectionBuilder().withUrl("/dashboardHub").build();
+
 
 $(function () {
     connection.start().then(function () {

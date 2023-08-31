@@ -4,11 +4,16 @@ namespace SignalR_SqlTableDependency.BL
 {
     public class AdminJobs
     {
-        AdminHub adminHub;
+        //AdminHub adminHub;
 
-        public AdminJobs(AdminHub adminHub)
+        //public AdminJobs(AdminHub adminHub)
+        //{
+        //    this.adminHub = adminHub;
+        //}
+        DashboardHub adminHub;
+        public AdminJobs(DashboardHub adminhub)
         {
-            this.adminHub = adminHub;
+            this.adminHub = adminhub;
         }
 
         public async Task ProcessLoans()

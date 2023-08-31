@@ -1,6 +1,74 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+    </header>
+    <main>
+        <section id="Tab">
+            <h2>Data Collection</h2>
+            <p>We collect certain information to provide you with a better experience while using our Point of Sale (POS) system. This information may include:</p>
+            <ul>
+                <li>Personal details such as name and email.</li>
+                <li>Transaction data and purchase history.</li>
+                <li>Device and usage information.</li>
+            </ul>
+        </section>
 
-<p>Use this page to detail your site's privacy policy.</p>
+        <section>
+            <h2>Data Usage</h2>
+            <p>We use the collected data for various purposes, including:</p>
+            <ul>
+                <li>Processing transactions and providing the POS service.</li>
+                <li>Improving our products and services.</li>
+                <li>Customizing your experience and offering relevant recommendations.</li>
+                <li>Analyzing usage patterns and trends.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>We may use third-party services to help us operate our POS system, analyze usage, and improve our services. These third parties may collect and process your data on our behalf.</p>
+        </section>
+
+        <section>
+            <h2>Cookies</h2>
+            <p>We use cookies to enhance your browsing experience and personalize content. You can adjust your browser settings to manage or disable cookies.</p>
+        </section>
+
+        <section>
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access the data we hold about you.</li>
+                <li>Correct any inaccuracies in your data.</li>
+                <li>Request the deletion of your data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions about our privacy practices, please contact us at <a href="mailto:dyells10111@gmail.com">dyells10111@gmail.com</a>.</p>
+        </section>
+        <button onclick="Printdata()">POS</button>
+    </main>
+
+    <script>
+        function Printdata() {
+            // Hide the button before printing
+            var button = document.querySelector('button');
+            button.style.display = 'none';
+
+            // Trigger the print dialog
+            window.print();
+
+            // Restore the button after printing
+            button.style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

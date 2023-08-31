@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Zipped Projects\SignalRerr\SignalR_SqlTableDependency
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Zipped Projects/SignalRerr/SignalR_SqlTableDependency/Views/Account/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Zipped Projects/SignalRerr/SignalR_SqlTableDependency/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

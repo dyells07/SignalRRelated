@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\error.png"
     },
     {
+      "Id": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\images\\illustration_notifications.webp",
+      "PackagePath": "staticwebassets\\images\\illustration_notifications.webp"
+    },
+    {
       "Id": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\images\\processing.gif",
       "PackagePath": "staticwebassets\\images\\processing.gif"
     },
@@ -35,6 +39,10 @@
     {
       "Id": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\js\\notification.js",
+      "PackagePath": "staticwebassets\\js\\notification.js"
     },
     {
       "Id": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\js\\site.js",

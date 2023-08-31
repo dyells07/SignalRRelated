@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DuoRf24/8+fPXgJ+OeRepBH19X7pehYDMnLnq3NQ8nY=",
+  "Hash": "NopNqZ/7g4ZTr+ybzx1BECdTByh3LA5KrbnF/Bhcinc=",
   "Source": "SignalR_SqlTableDependency",
   "BasePath": "_content/SignalR_SqlTableDependency",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\images\\error.png"
     },
     {
+      "Identity": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\images\\illustration_notifications.webp",
+      "SourceId": "SignalR_SqlTableDependency",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\",
+      "BasePath": "_content/SignalR_SqlTableDependency",
+      "RelativePath": "images/illustration_notifications.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\illustration_notifications.webp"
+    },
+    {
       "Identity": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\images\\Loans_Illustration.png",
       "SourceId": "SignalR_SqlTableDependency",
       "SourceType": "Discovered",
@@ -185,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
+    },
+    {
+      "Identity": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\js\\notification.js",
+      "SourceId": "SignalR_SqlTableDependency",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\",
+      "BasePath": "_content/SignalR_SqlTableDependency",
+      "RelativePath": "js/notification.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\notification.js"
     },
     {
       "Identity": "G:\\Zipped Projects\\SignalRerr\\SignalR_SqlTableDependency\\wwwroot\\js\\site.js",
