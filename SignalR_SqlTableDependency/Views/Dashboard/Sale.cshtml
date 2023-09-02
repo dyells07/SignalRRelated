@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Sales";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row">
+      
+        <div class="col-md-4">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h4>Sales</h4>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <table class="table table-hover" id="tblSale">
+                        <thead>
+                            <tr>
+                                <th>S.N.</th>
+                                <th>Customer</th>
+                                <th>Amount</th>
+                                <th>Purchased On</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js" integrity="sha512-Lii3WMtgA0C0qmmkdCpsG0Gjr6M0ajRyQRQSbTF6BsrVh/nhZdHpVZ76iMIPvQwz1eoXC3DmAg9K51qT5/dEVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/js/dashboard.js"></script>
+}
